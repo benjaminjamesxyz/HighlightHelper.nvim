@@ -6,6 +6,6 @@ This is a plugin tata will allow you to easly identify a vim highlight group. Th
 
 ### Installation
 * Add the follwing in your init.vim <br/>
-<pre><code>call plug#begin('~/.config/nvim/plugged')<br/>
+<pre><code>call plug#begin(<your plugin installation directory>)<br/>
 Plug 'benjaminjamesxyz/HighlightHelper.nvim'<br/>
 call plug#end()</code></pre>
